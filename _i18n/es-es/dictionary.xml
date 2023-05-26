@@ -7916,4 +7916,6 @@
   <block id="04f76259e3406e39f106d09b85354906" category="inline-link">Los backups de SnapCenter para Exchange solo conservan la mitad de las copias Snapshot en el volumen de registro de destino del almacén</block>
   <block id="cd4ebcda1969773f0f41ef98c13dc3d5" category="admonition">Cree políticas de almacén independientes para registros y bases de datos cuando se trate de volúmenes de Exchange (LUN) y establezca la opción Keep (retención) para la política de registros en el doble de número para cada etiqueta que la política de base de datos, usando las mismas etiquetas. Para obtener más información, consulte:<block ref="069d987d34ba2a5b3f4862b42bb7f849" category="inline-link-rx"></block>.</block>
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Java no es compatible.</block>
+  <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">Error en la operación porque no puede detectar el dispositivo para la LUN</block>
+  <block id="24642a08e354f43168ca4f1178850f84" category="list-text">Debe asegurarse de que el LUN no esté asignado al host AIX mediante un iGroup compuesto por protocolos mixtos iSCSI y FC. Para obtener más información, consulte<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
 </blocks>
