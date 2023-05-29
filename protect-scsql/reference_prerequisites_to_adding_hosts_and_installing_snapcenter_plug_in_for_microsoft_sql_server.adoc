@@ -25,9 +25,6 @@ http://support.microsoft.com/kb/2926557/["Artículo de soporte de Microsoft 2926
 
 * Al instalar un plugin en un host de Windows, si especifica una credencial que no está integrada o si el usuario pertenece a un usuario de grupo de trabajo local, debe deshabilitar UAC en el host.
 * Si está instalado SnapManager para Microsoft SQL Server, debe haber detenido o deshabilitado el servicio y las programaciones.
-+
-Si prevé importar tareas de backup o clonado a SnapCenter, no desinstale SnapManager para Microsoft SQL Server.
-
 * El host debe poder resolverse con el nombre de dominio completo (FQDN) del servidor.
 +
 Si el archivo hosts se modifica para que pueda resolverse y si se especifican tanto el nombre corto como el FQDN en el archivo hosts, cree una entrada en el archivo hosts SnapCenter con el siguiente formato: <ip_address> <host_fqdn> <host_name>

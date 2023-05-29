@@ -1,9 +1,14 @@
-= 
+---
+permalink: protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html 
+sidebar: sidebar 
+keywords: clone 
+summary: El flujo de trabajo de clonado incluye planificar, realizar la operación de clonado y supervisar la operación. 
+---
+= Clonar backups mediante cmdlets de PowerShell
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
-
-'''
-permalink: Protect-sql/task_clone_backups_using_powershell_cmdlets_for_sql.html barra lateral: Palabras clave de la barra lateral: Resumen de clon: 'El flujo de trabajo del clon incluye la planificación, la realización de la operación de clonado y la supervisión de la operación'. --- = Clonar copias de seguridad utilizando cmdlets de PowerShell :íconos: Font :imagesdir: ../media/
 
 El flujo de trabajo de clonado incluye planificar, realizar la operación de clonado y supervisar la operación.
 

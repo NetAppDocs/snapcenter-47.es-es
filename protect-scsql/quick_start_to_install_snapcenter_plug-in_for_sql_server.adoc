@@ -196,8 +196,6 @@ Debe tener un usuario con privilegios de administrador local y permisos locales 
 
 Debe tener un usuario con permisos de administrador del sistema en SQL Server. El plugin utiliza Microsoft VDI Framework, para lo que se requiere acceso de sysadmin.
 
-Si utilizaba SnapManager para Microsoft SQL Server y desea importar datos de SnapManager para Microsoft SQL Server a SnapCenter, consulte link:../protect-scsql/concept_import_archived_backups_from_snapmanager_for_sql_to_snapcenter.html["Importación de backups archivados"^]
-
 
 
 == Instale el servidor SnapCenter

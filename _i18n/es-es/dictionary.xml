@@ -3815,8 +3815,6 @@
   <block id="35602ea96136092b8b885fe1ef749873" category="list-text">Asegúrese de que se rellenan los campos puntos finales, identificadores y firma.</block>
   <block id="907fe6bfcd498fe3e561f7fb3ee67c89" category="paragraph">La funcionalidad MFA de SnapCenter también se puede habilitar usando las API de REST.</block>
   <block id="1958e9c22cb352dba19d476e05b4a53b" category="paragraph">Después de habilitar, actualizar o deshabilitar la configuración de MFA en SnapCenter, cierre todas las pestañas del explorador y vuelva a abrir un explorador para iniciar sesión de nuevo. Esto borrará las cookies de sesión existentes o activas.</block>
-  <block id="442ed19a31ac1f651ba7bf07effe122c" category="inline-link-macro">El inicio de sesión de SnapCenter en varias pestañas muestra un error de MFA</block>
-  <block id="b07f8a55d09983494694fca31fee6b35" category="paragraph">Para obtener información sobre la solución de problemas, consulte <block ref="46642a8ad62fd1a061e94d6b7bf62dc5" category="inline-link-macro-rx"></block></block>
   <block id="aeb89440d41f10fd9cc43ab75d800138" category="section-title">Actualizar metadatos de MFA de AD FS</block>
   <block id="19b3ff63dd3f3b6c1e3e48e8b3be6141" category="paragraph">Debe actualizar los metadatos de la MFA de AD FS en SnapCenter cada vez que haya alguna modificación en el servidor de AD FS, como la actualización, la renovación de certificados de CA, la recuperación ante desastres, etc.</block>
   <block id="2a18eff05051b9c720a786193ade4742" category="list-text">Copie el archivo descargado en el servidor SnapCenter para actualizar la configuración de MFA.</block>
@@ -5915,7 +5913,6 @@
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Artículo de soporte de Microsoft 2926557: Las operaciones de backup y restauración de VDI de SQL Server requieren privilegios de administrador del sistema</block>
   <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Si está instalado SnapManager para Microsoft SQL Server, debe haber detenido o deshabilitado el servicio y las programaciones.</block>
-  <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">Si prevé importar tareas de backup o clonado a SnapCenter, no desinstale SnapManager para Microsoft SQL Server.</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">El host debe poder resolverse con el nombre de dominio completo (FQDN) del servidor.</block>
   <block id="be512bf47896cfa164b6d043714d4c71" category="paragraph">Si el archivo hosts se modifica para que pueda resolverse y si se especifican tanto el nombre corto como el FQDN en el archivo hosts, cree una entrada en el archivo hosts SnapCenter con el siguiente formato: &lt;ip_address&gt; &lt;host_fqdn&gt; &lt;host_name&gt;</block>
   <block id="862e27b33388db0f7174e2affc68bbee" category="doc">Consulte los backups y los clones de SQL Server en la página Topology</block>
@@ -6234,10 +6231,6 @@
   <block id="29a6d4ddcd28e22d7ba6ab65da50bf6f" category="paragraph">Para obtener información sobre cómo ejecutar el cmdlet, consulte<block ref="9af97e8a01b20be8df7443d0a4ef81ca" category="inline-link-rx"></block></block>
   <block id="eefa922509507f72bc1a8ad3abe353fd" category="list-text">Si va a utilizar SnapCenter Server para proteger las bases de datos de SQL que residen en LUN o VMDK de VMware RDM, debe implementar el plugin de SnapCenter para VMware vSphere y registrar el plugin con SnapCenter. La documentación del plugin de SnapCenter para VMware vSphere tiene más información.</block>
   <block id="2d3786cce4bbee81c9852997cc1bef39" category="paragraph"><block ref="2d3786cce4bbee81c9852997cc1bef39" category="inline-link-rx"></block></block>
-  <block id="eec7968b53638fab183beb9401255808" category="list-text">Mueva las bases de datos existentes al almacenamiento de NetApp.</block>
-  <block id="782b2e16a66c054ba5d75c3a3345abfe" category="paragraph">Para ver más detalles, consulte la información de importación de SnapCenter.</block>
-  <block id="3a5bf11a9dfcb97482357af03217e45f" category="inline-link-macro">Importe los backups archivados de SnapManager para Microsoft SQL Server a SnapCenter</block>
-  <block id="f87b26dbb302ad8c2fe31750b897cc6f" category="paragraph"><block ref="f87b26dbb302ad8c2fe31750b897cc6f" category="inline-link-macro-rx"></block></block>
   <block id="697a526808255bffff4fb836c66f8996" category="paragraph">Para ver más detalles, consulte la información de SnapCenter.</block>
   <block id="973f2cfe0dd46d88f8d7508fa939a288" category="summary">Es posible crear una política de backup para el recurso o el grupo de recursos antes de usar SnapCenter con el fin de realizar un backup de los recursos de SQL Server. También es posible crear una política de backup en el momento de crear un grupo de recursos o realizar un backup de un único recurso.</block>
   <block id="9628575eeeb967c57fd9fea29650a3d6" category="list-text">Debe haber configurado el directorio de registro del host para backup de registro.</block>
@@ -6373,8 +6366,6 @@
   <block id="353c85d985312d2d61ab0aeb4ee52759" category="paragraph">*Requisitos del complemento SnapCenter para Microsoft SQL Server*</block>
   <block id="4bd535cc745449316aa463a5f52133d6" category="paragraph">Debe tener un usuario con privilegios de administrador local y permisos locales para iniciar sesión en el host remoto. Si gestiona nodos de clúster, necesita un usuario con privilegios de administrador para todos los nodos del clúster.</block>
   <block id="cf94e6be5912bb698bcc03d64c605bc4" category="paragraph">Debe tener un usuario con permisos de administrador del sistema en SQL Server. El plugin utiliza Microsoft VDI Framework, para lo que se requiere acceso de sysadmin.</block>
-  <block id="aa829ddf1acbdd2a8aa6a61635c33dec" category="inline-link-macro">Importación de backups archivados</block>
-  <block id="b06af5128852d56366a94b0a3584c1a6" category="paragraph">Si utilizaba SnapManager para Microsoft SQL Server y desea importar datos de SnapManager para Microsoft SQL Server a SnapCenter, consulte <block ref="0079f46f6850618db9fdf32f5f6051e0" category="inline-link-macro-rx"></block></block>
   <block id="228c8a7d638433f7182edc100efa8234" category="paragraph">*Descargue e instale el servidor SnapCenter*</block>
   <block id="72de9cea28a7cca58f8423279c68e8c6" category="list-text">Descargue el paquete de instalación del servidor SnapCenter desde el<block ref="d4fdc92072f5257471f3139636068769" category="inline-link-rx"></block> y, a continuación, haga doble clic en el archivo exe.</block>
   <block id="f3202cac117dff2d56e44da0f9a51af3" category="paragraph">Tras iniciar la instalación, se realizan todas las comprobaciones previas y si los requisitos mínimos no son los correctos, se muestran mensajes de error o de advertencia. Puede ignorar los mensajes de advertencia y continuar con la instalación; sin embargo, los errores deben corregirse.</block>
@@ -6588,7 +6579,6 @@
   <block id="cc8872fd3647eea5077aab482b8a8315" category="paragraph">Cuando se utiliza el modelo de recuperación completa, es posible restaurar una base de datos a su estado anterior desde el punto de error.</block>
   <block id="a93af87c8649f227602a94864e899324" category="list-text">Modelo de recuperación de registro masivo</block>
   <block id="75f9316c993a023ec1a7767f5f57f99b" category="paragraph">Cuando se utiliza el modelo de recuperación de registro masivo, debe volver a ejecutarse manualmente la operación de registro masivo. Debe realizar la operación de registro masivo si antes de la restauración no se ha realizado un backup del registro de transacciones que contiene el registro de confirmación de la operación. Si la operación de registro masivo inserta 10 millones de filas en una base de datos, y la base de datos genera errores antes de someterse a un backup, la base de datos restaurada no incluye las filas que se insertaron en la operación de registro masivo.</block>
-  <block id="ad6e610d08a861e343805ef4cb444552" category="paragraph">permalink: Protect-sql/task_clone_backups_using_powershell_cmdlets_for_sql.html barra lateral: Palabras clave de la barra lateral: Resumen de clon: 'El flujo de trabajo del clon incluye la planificación, la realización de la operación de clonado y la supervisión de la operación'. --- = Clonar copias de seguridad utilizando cmdlets de PowerShell :íconos: Font :imagesdir: ../media/</block>
   <block id="1f0f35e19b43f8181a2be6a16920577f" category="doc">Supervise el estado de la instalación del plugin para SQL Server</block>
   <block id="2fd9111fd14738ba180065d2a1781ed9" category="summary">Antes de restaurar una base de datos de SQL Server a partir de un backup del plugin de SnapCenter para Microsoft SQL Server, debe asegurarse de que se cumplan diversos requisitos.</block>
   <block id="818095849ac39056a1077a0f3a155684" category="doc">Requisitos para restaurar una base de datos</block>
@@ -7918,4 +7908,8 @@
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Java no es compatible.</block>
   <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">Error en la operación porque no puede detectar el dispositivo para la LUN</block>
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">Debe asegurarse de que el LUN no esté asignado al host AIX mediante un iGroup compuesto por protocolos mixtos iSCSI y FC. Para obtener más información, consulte<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
+  <block id="9756c6d75626032c8da05d425c1d0ca9" category="inline-link">La actualización o instalación de SnapCenter falla para sistemas heredados que no tienen conectividad a Internet</block>
+  <block id="13049774dda261f80daaffb596a81a1a" category="paragraph">Para obtener información sobre la solución de problemas de .NET, consulte<block ref="942b108700d0bb5d970d88a8461fd602" category="inline-link-rx"></block>.</block>
+  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link-macro">El inicio de sesión de SnapCenter en varias pestañas muestra un error de MFA</block>
+  <block id="2f173d5b0ca9ce83c5f72823b496861e" category="paragraph">Para obtener información sobre la solución de problemas, consulte <block ref="483bd3f656143b22c94a19a83a51ec44" category="inline-link-macro-rx"></block>.</block>
 </blocks>
