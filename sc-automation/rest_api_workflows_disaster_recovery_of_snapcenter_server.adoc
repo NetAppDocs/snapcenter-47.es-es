@@ -102,4 +102,13 @@ Habilite o deshabilite la recuperación ante desastres de almacenamiento
 PUBLICAR
 
 |===
+
+NOTE: La programación de backup del repositorio se restaurará únicamente si instala el plugin de SnapCenter para Windows y asocia LUN de NetApp a la máquina servidor.
+
+
+NOTE: Si las DLL están dañadas, puede intentar reparar el servidor SnapCenter o corregir la instalación defectuosa.
+
+
+NOTE: Si los archivos nsm o de configuración están dañados, puede desinstalar y volver a instalar el servidor SnapCenter con la misma versión.
+
 Para obtener más información, consulte https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["API de recuperación ante desastres"^] vídeo.
