@@ -10,6 +10,7 @@ summary: La restauración de un backup de recursos incluye el inicio de una sesi
 :imagesdir: ../media/
 
 
+[role="lead"]
 La restauración de un backup de recursos incluye el inicio de una sesión de conexión con el servidor SnapCenter, el listado de los backups y la recuperación de información de los backups, y la restauración de un backup.
 
 Debe haber preparado el entorno de PowerShell para ejecutar los cmdlets de PowerShell.
@@ -104,4 +105,4 @@ PluginName          :
 ----
 
 
-La información relativa a los parámetros que se pueden utilizar con el cmdlet y sus descripciones se puede obtener ejecutando _Get-Help nombre_comando_. Como alternativa, también puede consultar la https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guía de referencia de cmdlets de SnapCenter Software"^].
+La información relativa a los parámetros que se pueden utilizar con el cmdlet y sus descripciones se puede obtener ejecutando _Get-Help nombre_comando_. Alternativamente, también puede consultar la https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guía de referencia de cmdlets de SnapCenter Software"^].

@@ -82,7 +82,7 @@ Seleccione este campo para evitar forzar un punto de coherencia de WAFL.
 
 |===
 +
-image:../media/application_settings.gif[""]
+image:../media/application_settings.gif["configuración de la aplicación"]
 
 .. Haga clic en la flecha Scripts y escriba los comandos previos y posteriores para el modo de inactividad, copia de Snapshot y la reanudación de la copia. También puede escribir los comandos previos para que se ejecuten antes de salir en caso de un fallo.
 .. Haga clic en la flecha Custom Configurations y utilice este recurso para escribir los pares personalizados clave-valor requeridos en todas las operaciones de protección de datos.
@@ -176,12 +176,12 @@ Seleccione Other y escriba el comando que se ejecutará en el host a fin de crea
 .. Seleccione una o varias políticas de la lista desplegable.
 +
 
-NOTE: También puede crear una directiva haciendo clic en *image:../media/add_policy_from_resourcegroup.gif[""]*.
+NOTE: También puede crear una política haciendo clic en *image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"]*.
 
 +
 Las directivas se enumeran en la sección *Configurar horarios para directivas seleccionadas*.
 
-.. En la columna *Configurar horarios*, haga clic en *image:../media/add_policy_from_resourcegroup.gif[""]* para la directiva que desea configurar.
+.. En la columna *Configure Schedules*, haga clic en *image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"]* para la política que desea configurar.
 .. En el cuadro de diálogo Add schedules for policy _policy_name_, configure la programación y haga clic en OK.
 +
 Policy_name es el nombre de la política seleccionada.

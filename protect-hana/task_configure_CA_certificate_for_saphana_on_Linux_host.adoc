@@ -10,6 +10,7 @@ summary: Configure el certificado de CA para el servicio de plugins personalizad
 :imagesdir: ../media/
 
 
+[role="lead"]
 Debe gestionar la contraseña del almacén de claves de los plugins personalizados y su certificado, configurar el certificado de CA, configurar los certificados raíz o intermedios en el almacén de confianza de plugins personalizados y configurar la pareja de claves firmada de CA en el almacén de confianza de plugins personalizados con el servicio de plugins personalizados de SnapCenter para activar el certificado digital instalado.
 
 Los plugins personalizados utilizan el archivo 'keystore.jks', que se encuentra en _/opt/NetApp/snapcenter/scc/etc_ tanto como en su almacén de confianza como en su almacén de claves.

@@ -59,8 +59,8 @@ Cuando hace clic en el nombre del clúster, todas las SVM que forman parte del c
 La columna Controller License muestra el siguiente estado:
 
 +
-** image:../media/controller_licensed_icon.gif[""] Indica que se ha instalado una licencia de SnapManager Suite en un sistema de almacenamiento primario FAS o AFF.
-** image:../media/controller_not_licensed_icon.gif[""] Indica que no hay una licencia de SnapManager Suite instalada en un sistema de almacenamiento primario FAS o AFF.
+** image:../media/controller_licensed_icon.gif["icono de licencia del controlador"] Indica que hay una licencia de SnapManager Suite instalada en un sistema de almacenamiento primario FAS o AFF.
+** image:../media/controller_not_licensed_icon.gif["icono de controlador sin licencia"] Indica que no hay una licencia de SnapManager Suite instalada en un sistema de almacenamiento primario FAS o AFF.
 ** No aplicable indica que una licencia de SnapManager Suite no es aplicable debido a que la controladora de almacenamiento se encuentra en plataformas de almacenamiento Cloud Volumes ONTAP, ONTAP Select o secundario.
 
 
@@ -180,7 +180,7 @@ Si no introduce credenciales válidas, no se devuelve información a su búsqued
 . Vaya a *sistemas* > *licencias de software*.
 . En el área criterios de selección, asegúrese de que el número de serie (situado en la parte posterior de la unidad) está seleccionado, introduzca el número de serie del controlador y, a continuación, haga clic en *Ir*.
 +
-image::../media/nss_controller_license_select.gif[seleccione una licencia de controladora de nss]
+image::../media/nss_controller_license_select.gif[seleccione la licencia de la controladora]
 
 +
 Se muestra una lista de licencias para la controladora especificada.
@@ -238,7 +238,7 @@ NOTE: La eliminación manual de una licencia de prueba solo es necesaria si util
 .. Ejecute el cmdlet Open-SmConnection para iniciar una sesión de conexión con SnapCenter Server para una cuenta de administrador de SnapCenter.
 .. Ejecute el comando set-SmRepositoryPassword para restablecer la contraseña de MySQL.
 +
-Para obtener más información sobre los cmdlets de, consulte https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guía de referencia de cmdlets de SnapCenter Software"^].
+Para obtener información sobre los cmdlets, consulte https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guía de referencia de cmdlets de SnapCenter Software"^].
 
 
 

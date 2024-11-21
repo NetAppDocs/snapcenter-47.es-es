@@ -10,6 +10,7 @@ summary: Los privilegios mínimos requeridos de ONTAP varían en función de los
 :imagesdir: ../media/
 
 
+[role="lead"]
 Los privilegios mínimos requeridos de ONTAP varían en función de los plugins de SnapCenter que utilice para la protección de datos.
 
 |===

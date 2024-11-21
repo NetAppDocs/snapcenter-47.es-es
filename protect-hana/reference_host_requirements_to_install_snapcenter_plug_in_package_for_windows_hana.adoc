@@ -10,6 +10,7 @@ summary: Antes de instalar el paquete de plugins de SnapCenter para Windows, deb
 :imagesdir: ../media/
 
 
+[role="lead"]
 Antes de instalar el paquete de plugins de SnapCenter para Windows, debe estar familiarizado con algunos requisitos básicos de espacio y tamaño del sistema host.
 
 |===

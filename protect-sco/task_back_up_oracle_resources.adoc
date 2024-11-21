@@ -17,9 +17,9 @@ Si un recurso no es parte de ningún grupo de recursos, es posible realizar back
 
 . En el panel de navegación de la izquierda, haga clic en *Recursos* y, a continuación, seleccione el plugin adecuado en la lista.
 . En la página Resources, seleccione *Database* en la lista *View*.
-. Haga clic en *image:../media/filter_icon.gif[""]* y luego seleccione el nombre de host y el tipo de base de datos para filtrar los recursos.
+. Haga clic enimage:../media/filter_icon.gif["icono de filtro"]* * y, a continuación, seleccione el nombre de host y el tipo de base de datos para filtrar los recursos.
 +
-A continuación, puede hacer clic en *image:../media/filter_icon.gif[""]* para cerrar el panel de filtros.
+A continuación, puede hacer clic en *image:../media/filter_icon.gif["icono de filtro"]* para cerrar el panel de filtros.
 
 . Seleccione la base de datos de la que desea realizar el backup.
 +
@@ -51,12 +51,12 @@ Especifique los destinos de los archivos de registro de archivos que no desea in
 .. Seleccione una o varias políticas de la lista desplegable.
 +
 
-NOTE: También puede crear una directiva haciendo clic en *image:../media/add_policy_from_resourcegroup.gif[""]*.
+NOTE: También puede crear una política haciendo clic en *image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"]*.
 
 +
 En la sección Configure schedules for selected policies, se muestran las políticas seleccionadas.
 
-.. Haga clic en image:../media/add_policy_from_resourcegroup.gif[""] En la columna Configure Schedules correspondiente a la política para la cual se desea configurar una programación.
+.. Se debe hacer clic en image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"] en la columna Configure Schedules para la política cuya programación se desea configurar.
 .. En la ventana Add schedules for policy _policy_name_, configure la programación y haga clic en *OK*.
 +
 _policy_name_ es el nombre de la directiva seleccionada.
@@ -69,7 +69,7 @@ Las programaciones configuradas figuran en la columna Applied Schedules.
 . En la página Verification, realice los siguientes pasos:
 +
 .. Haga clic en *Load locators* para cargar los volúmenes de SnapMirror o SnapVault y realizar la verificación en el almacenamiento secundario.
-.. Haga clic en image:../media/add_policy_from_resourcegroup.gif[""] En la columna Configure Schedules, a fin de configurar la programación de verificación de todos los tipos de programación de la política.
+.. Haga clic en image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"] en la columna Configure Schedules para configurar la programación de verificación de todos los tipos de programación de la política.
 .. En el cuadro de diálogo Add Verification Schedules _policy_name_, realice las siguientes acciones:
 +
 |===

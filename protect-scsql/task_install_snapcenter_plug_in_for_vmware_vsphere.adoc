@@ -10,6 +10,7 @@ summary: 'Si la base de datos está almacenada en máquinas virtuales (VM) o si 
 :imagesdir: ../media/
 
 
+[role="lead"]
 Si la base de datos está almacenada en máquinas virtuales (VM) o si desea proteger máquinas virtuales y almacenes de datos, debe implementar el dispositivo virtual del plugin de SnapCenter para VMware vSphere.
 
 Para obtener información sobre la implementación, consulte https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scpivs44_get_started_overview.html["Visión General de la implementación"^].

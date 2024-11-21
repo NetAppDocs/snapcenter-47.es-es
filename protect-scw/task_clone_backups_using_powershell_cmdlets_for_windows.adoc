@@ -10,6 +10,7 @@ summary: El flujo de trabajo de clonado incluye planificar, realizar la operaci�
 :imagesdir: ../media/
 
 
+[role="lead"]
 El flujo de trabajo de clonado incluye planificar, realizar la operación de clonado y supervisar la operación.
 
 Debe haber preparado el entorno de PowerShell para ejecutar los cmdlets de PowerShell.
@@ -199,4 +200,4 @@ ClonedResources : {Don_DRAPER, Betty_DRAPER, Bobby_DRAPER,
 ----
 
 
-La información relativa a los parámetros que se pueden utilizar con el cmdlet y sus descripciones se puede obtener ejecutando _Get-Help nombre_comando_. Como alternativa, también puede consultar la https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guía de referencia de cmdlets de SnapCenter Software"^].
+La información relativa a los parámetros que se pueden utilizar con el cmdlet y sus descripciones se puede obtener ejecutando _Get-Help nombre_comando_. Alternativamente, también puede consultar la https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guía de referencia de cmdlets de SnapCenter Software"^].

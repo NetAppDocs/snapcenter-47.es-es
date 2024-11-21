@@ -84,7 +84,7 @@ Debe tener credenciales de inicio de sesión válidas en el sitio de soporte de 
 . Vaya a *sistemas* > *licencias de software*.
 . En el área criterios de selección, elija *SC_STANDARD* en el menú desplegable Mostrar todos: Números de serie y licencias.
 +
-image::../media/nss_license_selection.gif[selección de licencia de nss]
+image::../media/nss_license_selection.gif[licencia]
 
 . Escriba el nombre de su empresa y, a continuación, haga clic en *Ir*.
 +
@@ -150,7 +150,7 @@ NOTE: La licencia de prueba (número de serie que finaliza con 50) no se puede e
 
 . En el panel de navegación de la izquierda, haga clic en *Configuración*.
 . En la página Configuración, haga clic en *Software*.
-. En la sección Licencia de la página Software, haga clic en *Agregar* (image:../media/add_policy_from_resourcegroup.gif[""]).
+. En la sección Licencia de la página Software, haga clic en *Agregar* (image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"]).
 . En el asistente Add SnapCenter License, seleccione uno de los siguientes métodos para obtener la licencia que desea añadir:
 +
 |===

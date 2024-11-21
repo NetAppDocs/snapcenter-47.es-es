@@ -10,6 +10,7 @@ summary: Es posible elegir la cantidad de días durante los cuales se retendrán
 :imagesdir: ../media/
 
 
+[role="lead"]
 Es posible elegir la cantidad de días durante los cuales se retendrán las copias de backup o especificar la cantidad de copias de backup que se desean retener, con un máximo de 255 copias en ONTAP. Por ejemplo, una organización puede necesitar retener 10 días de copias de backup o 130 copias de backup.
 
 Al crear una política, es posible especificar las opciones de retención para cada tipo y programación de backup.

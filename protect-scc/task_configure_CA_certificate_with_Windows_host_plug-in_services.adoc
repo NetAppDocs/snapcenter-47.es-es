@@ -10,6 +10,7 @@ summary: Configure el certificado de CA con servicios de plugins de host de Wind
 :imagesdir: ../media/
 
 
+[role="lead"]
 Debe configurar el certificado de CA con servicios de plugins del host de Windows para activar el certificado digital instalado.
 
 Realice los siguientes pasos en el servidor de SnapCenter y en todos los hosts del plugin donde ya se hayan implementado certificados de CA.

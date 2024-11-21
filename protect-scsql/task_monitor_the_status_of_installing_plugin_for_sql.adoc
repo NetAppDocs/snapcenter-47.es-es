@@ -10,6 +10,7 @@ summary: Puede supervisar el progreso de la instalación del paquete de plugins 
 :imagesdir: ../media/
 
 
+[role="lead"]
 Puede supervisar el progreso de la instalación del paquete de plugins de SnapCenter mediante la página Jobs. Tal vez desee comprobar el progreso de la instalación para determinar si está completo o si hay algún problema.
 
 *Acerca de esta tarea*

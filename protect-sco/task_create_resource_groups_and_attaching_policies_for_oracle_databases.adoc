@@ -21,7 +21,7 @@ Debe añadir una o más políticas al grupo de recursos para definir el tipo de 
 
 En la siguiente imagen, se muestra la relación entre los recursos, los grupos de recursos y las políticas para las bases de datos:
 
-image::../media/sco_resourcegroup_policy.gif[política de sco resourcegroup]
+image::../media/sco_resourcegroup_policy.gif[añada una política desde el grupo de recursos]
 
 * Pasos*
 
@@ -82,12 +82,12 @@ NOTE: Puede agregar bases de datos desde hosts Linux y AIX en un solo grupo de r
 .. Seleccione una o varias políticas de la lista desplegable.
 +
 
-NOTE: También puede crear una política haciendo clic en image:../media/add_policy_from_resourcegroup.gif[""].
+NOTE: También puede crear una política haciendo clic en image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"].
 
 +
 En la sección Configure schedules for selected policies, se muestran las políticas seleccionadas.
 
-.. Haga clic en *image:../media/add_policy_from_resourcegroup.gif[""]* En la columna Configurar programaciones de la directiva para la que desea configurar una programación.
+.. Haga clic enimage:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"]* en la columna Configure Schedules correspondiente a la política para la cual desea configurar una programación.
 .. En la ventana Add schedules for policy _policy_name_, configure la programación y haga clic en *OK*.
 +
 Donde, _policy_name_ es el nombre de la directiva seleccionada.
@@ -103,7 +103,7 @@ No se admiten programas de backup de terceros cuando se solapan con los programa
 . En la página Verification, realice los siguientes pasos:
 +
 .. Haga clic en *Load locators* para cargar los volúmenes de SnapMirror o SnapVault y realizar la verificación en el almacenamiento secundario.
-.. Haga clic en *image:../media/add_policy_from_resourcegroup.gif[""]* En la columna Configure Schedules para configurar la programación de verificación de todos los tipos de programación de la política.
+.. Haga clic enimage:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"] * * en la columna Configure Schedules para configurar la programación de verificación de todos los tipos de programación de la política.
 .. En el cuadro de diálogo Add Verification Schedules policy_name, realice las siguientes acciones:
 +
 |===

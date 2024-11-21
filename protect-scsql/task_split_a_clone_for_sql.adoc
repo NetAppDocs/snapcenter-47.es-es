@@ -10,6 +10,7 @@ summary: Es posible usar SnapCenter para dividir un recurso clonado de un recurs
 :imagesdir: ../media/
 
 
+[role="lead"]
 Es posible usar SnapCenter para dividir un recurso clonado de un recurso primario. El clon que se divide se independiza del recurso primario.
 
 *Acerca de esta tarea*
@@ -52,7 +53,7 @@ Seleccione *Ruta* en la lista Ver.
 +
 Se muestra la página con el resumen.
 
-. En la vista Manage Copies, seleccione el recurso clonado (por ejemplo, la base de datos o el LUN) y, a continuación, haga clic en *image:../media/split_cone.gif[""]*.
+. En la vista Manage Copies, seleccione el recurso clonado (por ejemplo, la base de datos o el LUN) y, a continuación, haga clic en *image:../media/split_cone.gif["icono de división de clones"].
 . Revise el tamaño estimado del clon que se va a dividir y el espacio necesario disponible en el agregado y, a continuación, haga clic en *Inicio*.
 . Supervise el progreso de la operación haciendo clic en *Monitor* > *Jobs*.
 +

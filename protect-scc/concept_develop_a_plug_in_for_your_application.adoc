@@ -27,7 +27,6 @@ Para utilizar plugins personalizados en SnapCenter, debe realizar las siguientes
 
 == Gestión de complementos genérica en todas las llamadas API
 
-[role="lead"]
 Para cada llamada a la API, utilice la siguiente información:
 
 * Parámetros del plugin

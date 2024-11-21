@@ -6,8 +6,11 @@ summary: 'Es posible generar una solicitud de firma de certificación (CSR) e im
 ---
 = Genere un archivo CSR de certificado de CA
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
+[role="lead"]
 Es posible generar una solicitud de firma de certificación (CSR) e importar el certificado que puede obtenerse de una entidad de certificación (CA) con la CSR generada. El certificado tendrá una clave privada asociada.
 
 CSR es un bloque de texto codificado que se da a un proveedor de certificados autorizado para obtener el certificado de CA firmado.
