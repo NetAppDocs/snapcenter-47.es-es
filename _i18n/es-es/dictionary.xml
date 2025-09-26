@@ -5795,7 +5795,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">Debe tener un usuario con permisos de administrador del sistema en SQL Server.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">El plugin de SnapCenter para Microsoft SQL Server utiliza Microsoft VDI Framework, para lo que se requiere acceso de sysadmin.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Artículo de soporte de Microsoft 2926557: Las operaciones de backup y restauración de VDI de SQL Server requieren privilegios de administrador del sistema</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Si está instalado SnapManager para Microsoft SQL Server, debe haber detenido o deshabilitado el servicio y las programaciones.</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">El host debe poder resolverse con el nombre de dominio completo (FQDN) del servidor.</block>
   <block id="be512bf47896cfa164b6d043714d4c71" category="paragraph">Si el archivo hosts se modifica para que pueda resolverse y si se especifican tanto el nombre corto como el FQDN en el archivo hosts, cree una entrada en el archivo hosts SnapCenter con el siguiente formato: &lt;ip_address&gt; &lt;host_fqdn&gt; &lt;host_name&gt;</block>
@@ -7941,4 +7940,5 @@ NetApp® Single Mailbox Recovery ha llegado al final de la disponibilidad (EOA) 
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">Si desea actualizar varios hosts, seleccione todos los hosts, haga clic en y, a continuación, haga clic <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>en *Actualizar* &gt; *Aceptar*.</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Para obtener más información, consulte el<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> vídeo.</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>
